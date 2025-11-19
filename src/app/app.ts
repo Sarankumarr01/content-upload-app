@@ -1,12 +1,13 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  standalone: true,
+  imports: [CommonModule, RouterOutlet],
+  template: `
+    <router-outlet></router-outlet>
+  `
 })
-export class App {
-  protected readonly title = signal('content-upload-app');
-}
+export class App {}

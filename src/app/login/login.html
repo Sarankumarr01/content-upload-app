@@ -1,0 +1,22 @@
+<div class="login-container">
+  <div class="login-box">
+
+    <h2>Login</h2>
+
+    <!-- Email login -->
+    <input type="email" [(ngModel)]="email" placeholder="Email" />
+    <input type="password" [(ngModel)]="password" placeholder="Password" />
+
+    <button (click)="login()">Login</button>
+
+    <hr style="margin: 20px 0;">
+
+    <!-- Google login -->
+    <button (click)="loginWithGoogle()" class="google-btn">
+      <img class="google-icon"
+           src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png">
+      Continue with Google
+    </button>
+
+  </div>
+</div>

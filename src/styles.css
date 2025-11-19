@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* Prevent page/body from scrolling — only the dashboard content will scroll */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden !important;
+}
+
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
