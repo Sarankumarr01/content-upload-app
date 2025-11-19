@@ -9,13 +9,7 @@ import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { provideStorage, getStorage } from '@angular/fire/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIm_WRfscgh7wqu7jkunIv0V8Y4fB7IX0",
-  authDomain: "content-uploader-5f4df.firebaseapp.com",
-  projectId: "content-uploader-5f4df",
-  storageBucket: "content-uploader-5f4df.firebasestorage.app",
-  messagingSenderId: "165973742297",
-  appId: "1:165973742297:web:26c7250425e77dfaeda4c8",
-  measurementId: "G-ZZH4CG378P"
+  //your firebase confif here
 };
 
 export const appConfig: ApplicationConfig = {
