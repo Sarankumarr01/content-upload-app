@@ -1,6 +1,6 @@
 # ContentUploadApp
 ### Screen Recording
-Video: [Download / Watch](Lhttps://drive.google.com/file/d/184qd4teBcZ4rCq6kaTHX39pWR3VrR37b/view?usp=sharing)
+Video: [Download / Watch](https://drive.google.com/file/d/184qd4teBcZ4rCq6kaTHX39pWR3VrR37b/view?usp=sharing)
 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
